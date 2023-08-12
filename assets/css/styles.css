@@ -1,0 +1,728 @@
+/* Import fonts */
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/');
+  src: url('./../fonts/Mulish/?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-Black.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-Black.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-Black.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-Black.svg#Mulish-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-BlackItalic.eot');
+  src: url('./../fonts/Mulish/Mulish-BlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-BlackItalic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-BlackItalic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-BlackItalic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-BlackItalic.svg#Mulish-BlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-Bold.eot');
+  src: url('./../fonts/Mulish/Mulish-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-Bold.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-Bold.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-Bold.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-Bold.svg#Mulish-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-BoldItalic.eot');
+  src: url('./../fonts/Mulish/Mulish-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-BoldItalic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-BoldItalic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-BoldItalic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-BoldItalic.svg#Mulish-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-ExtraBold.eot');
+  src: url('./../fonts/Mulish/Mulish-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-ExtraBold.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-ExtraBold.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-ExtraBold.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-ExtraBold.svg#Mulish-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-ExtraBoldItalic.eot');
+  src: url('./../fonts/Mulish/Mulish-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-ExtraBoldItalic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-ExtraBoldItalic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-ExtraBoldItalic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-ExtraBoldItalic.svg#Mulish-ExtraBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-ExtraLight.eot');
+  src: url('./../fonts/Mulish/Mulish-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-ExtraLight.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-ExtraLight.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-ExtraLight.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-ExtraLight.svg#Mulish-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-ExtraLightItalic.eot');
+  src: url('./../fonts/Mulish/Mulish-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-ExtraLightItalic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-ExtraLightItalic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-ExtraLightItalic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-ExtraLightItalic.svg#Mulish-ExtraLightItalic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-Italic.eot');
+  src: url('./../fonts/Mulish/Mulish-Italic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-Italic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-Italic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-Italic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-Italic.svg#Mulish-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-Light.eot');
+  src: url('./../fonts/Mulish/Mulish-Light.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-Light.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-Light.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-Light.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-Light.svg#Mulish-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-LightItalic.eot');
+  src: url('./../fonts/Mulish/Mulish-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-LightItalic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-LightItalic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-LightItalic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-LightItalic.svg#Mulish-LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-Medium.eot');
+  src: url('./../fonts/Mulish/Mulish-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-Medium.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-Medium.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-Medium.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-Medium.svg#Mulish-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-MediumItalic.eot');
+  src: url('./../fonts/Mulish/Mulish-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-MediumItalic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-MediumItalic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-MediumItalic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-MediumItalic.svg#Mulish-MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-Regular.eot');
+  src: url('./../fonts/Mulish/Mulish-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-Regular.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-Regular.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-Regular.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-Regular.svg#Mulish-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-SemiBold.eot');
+  src: url('./../fonts/Mulish/Mulish-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-SemiBold.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-SemiBold.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-SemiBold.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-SemiBold.svg#Mulish-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./../fonts/Mulish/Mulish-SemiBoldItalic.eot');
+  src: url('./../fonts/Mulish/Mulish-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/Mulish/Mulish-SemiBoldItalic.woff2') format('woff2'),
+      url('./../fonts/Mulish/Mulish-SemiBoldItalic.woff') format('woff'),
+      url('./../fonts/Mulish/Mulish-SemiBoldItalic.ttf') format('truetype'),
+      url('./../fonts/Mulish/Mulish-SemiBoldItalic.svg#Mulish-SemiBoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/* Reset browser */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Mulish';
+}
+body .container {
+  max-width: 1230px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Top-Header./Start */
+.top-header {
+  width: 100%;
+  height: 40px;
+  background-color: #81AACC;
+  position: relative;
+}
+.top-header p {
+  line-height: 40px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+.top-header .close-top-header {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0%, -50%);
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+/* Main-Menu./Start */
+.main-header {
+  height: 65px;
+  position: sticky;
+  top: 0;
+  z-index: 99999999999999;
+  background-color: #fff;
+}
+.box-main-header {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header .logo {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+.main-header .logo img {
+  width: 100%;
+  object-fit: cover;
+}
+.wrap-menu .menu-main {
+  display: flex;
+  margin-bottom: 0;
+  display: none;
+}
+.wrap-menu .active {
+  display: flex;
+}
+.wrap-menu .menu-main i {
+  font-size: 13px;
+}
+.wrap-menu .menu-main li {
+  list-style: none;
+  padding: 10px 15px;
+  position: relative;
+}
+.wrap-menu .menu-main .sub-menu {
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  width: 100%;
+  display: none;
+}
+.wrap-menu .menu-main li:hover .sub-menu {
+  display: block;
+}
+.wrap-menu .menu-main .sub-menu li a {
+  font-size: 15px;
+}
+.wrap-menu .menu-main .sub-menu li a::after {
+  content: none;
+}
+.wrap-menu .menu-main .sub-menu li a:hover {
+  color: #155bf6;
+}
+
+.wrap-menu .menu-main li a {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  padding: 10px 0;
+
+}
+.wrap-menu .menu-main li a::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width .3s;
+}
+.wrap-menu .menu-main li:hover > a::after {
+  width: 100%;
+}
+
+.button-menu button {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+}
+.button-menu button:hover {
+  background-color: #F8F8F8;
+}
+.button-menu .active i {
+  color: gray;
+}
+.button-menu button.active:hover {
+  background-color: #fff;
+  cursor: not-allowed; /* con tro chuot -> Cam*/
+}
+
+.user-main {
+  display: flex;
+  margin-bottom: 0;
+}
+.user-main li {
+  list-style: none;
+  margin-left: 12px;
+  position: relative;
+}
+
+.user-main li i {
+  font-size: 20px;
+  color: #000;
+}
+.user-main li span {
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -12px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Slider./Start */
+.slider-main img {
+  width: 100%;
+  object-fit: cover;
+}
+.slider-main .owl-nav button {
+  position: absolute;
+
+  /* Phan tu nav ra giua slider theo chieu doc*/
+  top: 50%;
+  transform: translate(0, -50%);
+   /* Phan tu nav ra giua slider theo chieu doc */
+
+  background-color: #ebebeb!important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%!important;
+}
+.slider-main .owl-nav {
+  margin-top: 0;
+}
+.slider-main .owl-nav .owl-prev {
+  left: 10px;
+}
+.slider-main .owl-nav .owl-next {
+  right: 10px;
+}
+.slider-main .owl-nav button span {
+  font-size: 30px;
+  position: relative;
+  top: -5px;
+}
+.slider-main .owl-nav button:hover span {
+  color: #000;
+}
+.slider-main .owl-dots {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slider-main .owl-dots button span {
+  width: 15px!important;
+  height: 5px!important;
+}
+.slider-main .owl-dots .active span {
+  background-color: #080808!important;
+}
+
+/* service-main */
+.service-main {
+  padding: 30px 0;
+}
+.service-main .item {
+   width: 100%;
+   height: 65px;
+   display: flex;
+   align-items: center;    
+}
+.service-main .policies-image{
+   margin-left: 10px;
+}
+.service-main .text-sercice{
+ margin: 10px 10px 0 10px;
+}
+.service-main .text-sercice  h5{
+   font-size: 16px;
+}
+.service-main .text-sercice p{
+   font-size: 13px;
+}
+/* ega-fashion */
+.ega-fashion {
+  margin-bottom: 30px;
+}
+.ega-fashion .title-main{
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: 30px;
+
+}
+.ega-fashion .item{
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+}
+
+/* distcount-main */
+.distcount {
+  padding: 30px 0;
+}
+.distcount .item{
+  width: 100%;
+  height: 157px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+.img-distcount {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caoupon {
+  width: 194px;
+  height: 158px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 15px;
+
+
+}
+.caoupon h5 {
+  color: #155BF6;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.caoupon p{
+  font-size: 14px;
+  color: #727272;
+  text-align: center;
+}
+.caoupon-bt {
+  width: 164px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+
+}
+.caoupon-bt button{
+width: 75px;
+height: 29px;
+background-color: #165BF6;
+color: #fff;
+font-size: 14px;
+border: none;
+
+}
+.caoupon-bt a{
+  font-size: 14px;
+  color: #727272;
+}
+
+/* Hot-Deals./Start */
+.hot-deals .title-hot {
+  display: flex;
+  align-items: center;
+}
+.hot-deals .title-hot h2 {
+  font-weight: 600;
+  color: #000;
+}
+.hot-deals img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.wrap-countdown {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wrap-countdown ul {
+  display: flex;
+}
+.wrap-countdown ul li {
+  list-style: none;
+  background-color: #000000;
+  margin-left: 10px;
+  border-radius: 6px;
+}
+.title-countdown {
+  font-size: 18px;
+  color: #155bf6;
+  margin-right: 6px;
+}
+.wrap-countdown ul li h3 {
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding: 4px 15px;
+  margin: 0;
+}
+.wrap-countdown ul li p {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding: 4px 0;
+  border-top: 1px solid #ddd;
+}
+.wrap-button {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+.wrap-button .btn-hot {
+  border: none;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 20px;
+  position: relative;
+  margin-left: 5px;
+}
+.wrap-button .active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #414141;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.hot-deals .item-product {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+}
+.hot-deals .content-tabs {
+  margin-bottom: 30px;
+  display: none;
+}
+
+.hot-deals .tabs1 .item-product{
+  background-color: green;
+}
+.hot-deals .tabs2 .item-product{
+  background-color: red;
+}
+.hot-deals .tabs3 .item-product{
+  background-color: violet;
+}
+
+.hot-deals  .content-tabs.active {
+  display: block;
+}
+.hot-deals .wrap-readmore {
+  text-align: center;
+}
+
+.hot-deals .wrap-readmore .read-more {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 8px 25px;
+  background-color: #fff;
+}
+
+/* Footer./Start */
+.footer-main {
+  margin-top: 30px;
+  background-color: #80AACC;
+ padding-top: 80px;
+ padding-bottom: 50px;
+}
+.footer-main .item {
+  width: 100%;
+  height: 400px;
+  background-color: yellowgreen;
+}
+.mobile-menu {
+  display: none;
+}
+/* Responsive Layout */
+@media screen and (max-width: 1111px) {
+  .wrap-menu, .button-menu  {
+    display: none;
+  }
+  .box-main-header {
+    /* justify-content: flex-end; */
+    position: relative;
+  }
+  .main-header .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .mobile-menu i {
+    font-size: 25px;
+  }
+  .ega-fashion .item {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .wrap-countdown {
+    display: block;
+    text-align: right;
+  }
+  .wrap-countdown ul li p {
+    display: none;
+  }
+  .wrap-countdown ul li h3 {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .wrap-countdown ul {
+    justify-content: flex-end;
+  }
+  .wrap-countdown .title-countdown {
+    margin-bottom: 6px;
+  }
+  .wrap-button .btn-hot {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .hot-deals .title-hot h2 {
+    font-size: 18px;
+  }
+  .hot-deals img {
+    width: 25px;
+    height: 25px;
+  }
+  .wrap-button {
+    display: flex;
+    overflow-x: auto;
+  }
+  .wrap-button .btn-hot {
+    white-space: nowrap; /*Chu k xuong dong*/
+  }
+}
